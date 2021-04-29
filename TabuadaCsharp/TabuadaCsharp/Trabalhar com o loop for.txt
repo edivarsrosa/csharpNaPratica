@@ -1,0 +1,39 @@
+Trabalhar com o loop for
+28 minutos restantes
+Outra instrução de loop comum que você verá no código C# é o loop for. Experimente este código na janela interativa:
+
+C#
+
+Copiar
+for(int counter = 0; counter < 10; counter++)
+{
+  Console.WriteLine($"Hello World! The counter is {counter}");
+}
+Ele faz o mesmo trabalho que o loop while e o loop do que você já usou. A instrução for tem três partes que controlam o modo como ela funciona.
+
+A primeira parte é o inicializador de para: int counter = 0; declara que counter é a variável de loop e define seu valor inicial como 0 .
+
+A parte intermediária é a condição for: counter < 10 declara que esse for loop continua a ser executado, desde que o valor do contador seja menor que 10.
+
+A parte final é o para iterador: counter++ especifica como modificar a variável de loop depois de executar o bloco após a for instrução. Aqui, ela especifica que counter deve ser incrementado com 1 sempre que o bloco for executado.
+
+Experimente você mesmo. Tente o seguinte:
+
+Altere o inicializador para iniciar em um valor diferente.
+Altere a condição para parar em um valor diferente.
+Quando terminar, vamos escrever um código para usar o que você aprendeu.
+
+Há uma outra instrução de looping que não é abordada neste tutorial: a foreach instrução. A foreach instrução repete sua instrução para cada item em uma sequência de itens. Ele é usado com mais frequência com coleções e, portanto, é abordado no próximo tutorial.
+
+observe o codigo fonte abaixo:
+for(int contador=1000; contador<1005; contador++)
+{
+    Console.WriteLine($"Olá Ed! Contador é {contador}");
+}
+
+observe a saída:
+Olá Ed! Contador é 1000
+Olá Ed! Contador é 1001
+Olá Ed! Contador é 1002
+Olá Ed! Contador é 1003
+Olá Ed! Contador é 1004
